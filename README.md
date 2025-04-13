@@ -63,6 +63,8 @@ This project was built with proper version control using **Git** and hosted on *
 
 [GitHub Repository](https://github.com/aliramirez08/ShapeAssignment)
 
+![Repo](Screenshots/Repo.png)
+
 ---
 
 ## Technologies Used
