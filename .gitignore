@@ -1,0 +1,12 @@
+# Compiled class files
+/bin/
+*.class
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
