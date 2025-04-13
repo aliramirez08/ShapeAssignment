@@ -12,7 +12,7 @@ This UML diagram shows the class hierarchy and relationships among all component
 
 ---
 
-## 💻 Java Source Code
+##  Java Source Code
 
 ### `Shape.java`
 Defines the abstract base class `Shape` with abstract methods `surface_area()` and `volume()`.
