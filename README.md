@@ -1,18 +1,74 @@
-## Getting Started
+# Shape Assignment
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project demonstrates the use of abstract classes and inheritance in Java by implementing shapes: `Sphere`, `Cylinder`, and `Cone`.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+##  UML Diagram
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This UML diagram shows the class hierarchy and relationships among all components.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![UML Diagram](Screenshots/UML.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 💻 Java Source Code
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### `Shape.java`
+Defines the abstract base class `Shape` with abstract methods `surface_area()` and `volume()`.
+
+![Shape.java](Screenshots/Shape.png)
+
+---
+
+### `Sphere.java`
+Extends `Shape` and overrides the surface area and volume calculations for a sphere.
+
+![Sphere.java](Screenshots/Sphere.png)
+
+---
+
+### `Cylinder.java`
+Extends `Shape` and implements the calculations for a cylinder.
+
+![Cylinder.java](Screenshots/Cylinder.png)
+
+---
+
+### `Cone.java`
+Extends `Shape` and implements the surface area and volume for a cone.
+
+![Cone.java](Screenshots/cone.png)
+
+---
+
+### `ShapeArray.java`
+The **driver class**: creates instances of all shapes, stores them in an array, and prints their computed values.
+
+![ShapeArray.java](Screenshots/ShapeArray.png)
+
+---
+
+##  Program Output
+
+The following output is produced by running the `ShapeArray` class:
+
+![Output](Screenshots/ShapeOutput.png)
+
+---
+
+##  Version Control with GitHub
+
+This project was built with proper version control using **Git** and hosted on **GitHub**.
+
+[GitHub Repository](https://github.com/aliramirez08/ShapeAssignment)
+
+---
+
+## Technologies Used
+
+- Java 17 / 22
+- Visual Studio Code (Insiders Edition)
+- UML Tools (Class diagrams)
+- Git + GitHub
+
